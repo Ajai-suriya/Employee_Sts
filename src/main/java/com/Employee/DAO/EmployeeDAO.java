@@ -14,8 +14,8 @@ public class EmployeeDAO {
   @Autowired
   EmployeeRepository er;
   
-  public String postObj(Employee e) {
-	  er.save(e);
+  public String postObj(Employee ee) {
+	  er.save(ee);
 	  return "Posted single object successfully";
   }
   
